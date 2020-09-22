@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		h1 {color:blue; background-color: gray;}
+		h1, h2 {font-size: 16pt;}
+	</style>
+</head>
+<body>
+	<h1>h1 <span id="abc">스타일</span></h1>
+
+	<h2>h2 스타일</h2>
+</body>
+</html>

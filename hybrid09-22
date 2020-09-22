@@ -5,11 +5,17 @@
 	<style type="text/css">
 		h1 {color:blue; background-color: gray;}
 		h1, h2 {font-size: 16pt;}
+		.gh1 {color: blue;}
+		#abc {color: green;}
 	</style>
 </head>
 <body>
-	<h1>h1 <span id="abc">스타일</span></h1>
-
+	<h1 id="abc">h1 <span id="def">스타일</span></h1>
 	<h2>h2 스타일</h2>
+
+	<h1 class="gh1">h1 <span id="a2">스타일</span></h1>
+	<h1>h1 <span id ="a3">스타일</span></h1>
+	<h2 class="gh1">h2 스타일</h2>
+
 </body>
 </html>
